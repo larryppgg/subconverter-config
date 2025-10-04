@@ -1,0 +1,4 @@
+proxies:
+  - { name: "chatgptself", type: http, server: res.proxy-seller.com, port: 10000,
+      username: "95d1a55edf014407", password: "pQsbujai",
+      tls: true, skip-cert-verify: true, dialer-proxy: "GPT_UPSTREAM" }
