@@ -1,4 +1,4 @@
 proxies:
-  - { name: "chatgptself", type: http, server: res.proxy-seller.com, port: 10000,
+  - { name: "ps-fixed-ip", type: http, server: res.proxy-seller.com, port: 10000,
       username: "9525ba0bc5a05f7b", password: "KwZkN0Az",
       tls: true, skip-cert-verify: true, dialer-proxy: "GPT_UPSTREAM" }
